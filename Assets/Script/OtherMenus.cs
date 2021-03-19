@@ -11,4 +11,7 @@ public class OtherMenus : MonoBehaviour
     public void LoadScene () {
         SceneManager.LoadScene(sceneIndex);
     }
+    public void QuitGame () {
+        Application.Quit();
+    }
 }
