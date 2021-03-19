@@ -383,12 +383,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a6c569cea45d8e4fbe688e9c30fce82, type: 3}
---- !u!82 &633485385 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 5789152683754414440, guid: 3a6c569cea45d8e4fbe688e9c30fce82,
-    type: 3}
-  m_PrefabInstance: {fileID: 633485384}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &637991476 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5943471011395102185, guid: 38b1f48772f44d844a1c3d46f14f6b94,
@@ -412,7 +406,7 @@ PrefabInstance:
         type: 3}
       propertyPath: audio
       value: 
-      objectReference: {fileID: 633485385}
+      objectReference: {fileID: 0}
     - target: {fileID: 8689395946293747137, guid: eb3b4392fd2911441967037f32f9a922,
         type: 3}
       propertyPath: groundCheck
@@ -755,6 +749,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1467744321010952689, guid: 80871ce4c88f2fd45bc4a881c08d3133,
+        type: 3}
+      propertyPath: sceneIndex
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1467744321010952690, guid: 80871ce4c88f2fd45bc4a881c08d3133,
         type: 3}
       propertyPath: m_SortingOrder
